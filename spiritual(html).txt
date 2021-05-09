@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPIRITUAL</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="C:\Users\Sushma\Downloads\bootstrap-4.0.0-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="C:\Users\Sushma\Desktop\AICTE Activity\Spiritual.css">
+
+    <style>
+        [type=radio]{
+    display: none;
+}
+#slider{
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+#slider label{
+    margin: auto;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+#s1:checked ~ #slide4, #s2:checked ~ #slide5,
+#s3:checked ~ #slide1, #s4:checked ~ #slide2,
+#s5:checked ~ #slide3{
+    box-shadow: 0.1px 4px 0 rgba(0, 0, 0, 37);
+    transform: translate3d(-30%,0,-200px);
+}
+#s1:checked ~ #slide5, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2, #s4:checked ~ #slide3,
+#s5:checked ~ #slide4{
+    box-shadow:0 6px 10px 0 rgba(0, 0, 0, .3),0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(15%,0,-100px);
+}
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide2, #s4:checked ~ #slide4,
+#s5:checked ~ #slide5{
+    box-shadow:0 13px 25px 0 rgba(0, 0, 0, .3),0 11px 7px 0 rgba(0, 0, 0, .19);
+    transform: translate3d(0,0,0);
+}
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide3, #s4:checked ~ #slide5,
+#s5:checked ~ #slide1{
+    box-shadow:0 6px 10px 0 rgba(0, 0, 0, .3),0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(-15%,0,-100px);
+}
+#s1:checked ~ #slide3, #s2:checked ~ #slide4,
+#s3:checked ~ #slide5, #s4:checked ~ #slide1,
+#s5:checked ~ #slide2{
+    box-shadow:0 1px 4px 0 rgba(0, 0, 0, .37);
+    transform: translate3d(-30%,0,-200px);
+}
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="#" data-aos="fade-in" >
+        <center>
+            <h1>SPIRITUAL</h1>
+       </center>
+    </div>
+
+
+<center>
+
+<br><br>
+<section id="slider">
+    
+    <input type="radio" name="slider" id="s1">
+    <input type="radio" name="slider" id="s2">
+    <input type="radio" name="slider" id="s3" checked>
+    <input type="radio" name="slider" id="s4">
+    <input type="radio" name="slider" id="s5">
+
+    <label for="s1" id="slide1">
+        <img src="C:\Users\Sushma\Desktop\AICTE Activity\ISKCON.jpg" height="300px" width="600px" alt="">
+    </label>
+
+    <label for="s2" id="slide2">
+        <img src="C:\Users\Sushma\Desktop\AICTE Activity\Neersagar dam.jpg" height="300px" width="600px" alt="">
+    </label>
+
+    <label for="s3" id="slide3">
+        <img src="C:\Users\Sushma\Desktop\AICTE Activity\Nrupatunga betta.jpg" height="300px" width="600px" alt="">
+    </label>
+
+    <label for="s4" id="slide4">
+        <img src="C:\Users\Sushma\Desktop\AICTE Activity\Sadankeri.jpg" height="300px" width="600px" alt="">
+    </label>
+
+    <label for="s5" id="slide5">
+        <img src="C:\Users\Sushma\Desktop\AICTE Activity\Siddharoodha math.jpg" height="300px" width="600px" alt="">
+    </label>
+
+
+</section>
+</center>
+
+
+
+    <div class="container" id="animation" data-aos="fade-top"> 
+        <ul>
+            <center><h5>ISKON TEMPLE</h5></center>
+            
+            <div class="row">
+              
+                <div class="col-3" data-aos="fade-right">
+                    <img src="C:\Users\Sushma\Desktop\AICTE Activity\ISKCON.jpg" height="150px" width="250px" class="img">
+                </div>
+            
+                <div class="col-lg-8" data-aos="fade-left">
+            
+                    <p>
+        
+                        The temple is open from 4:30 a.m. to 5:00 am. The day begins with a Grand arati ceremony called mangala-arati followed by worship of Tulasi Devi, Sri Narasimha Arati and Suprabhata Seva for Sri Srinivasa Govinda. The temple again opens at 7:15 a.m. for Shringara Darshana Arati. 5:15 a.m. to 7:15 a.m.: Japa Meditation session. The temple remains open until 1:00 p.m. In the evening the temple is open from 4:15 to 8:15
+                    </p>
+            
+                </div>
+          
+            </div>
+            
+            </ul>
+     </div>
+
+
+<div class="container" id="animation" data-aos="fade-top">
+<ul>
+    <center><h5>Nuggikeri Hanuman Temple</h5></center>
+    <div class="row">
+        <div class="col-lg-4 order-lg-1" data-aos="fade-left">
+            <img src="C:\Users\Sushma\Desktop\AICTE Activity\Nuggikeri.png" height="150px" width="250px" data-aos="fade-right" class="img">
+        </div>
+        
+        <div class="col-lg-8 order-lg-0" data-aos="fade-right">
+            <p>
+            The Temple of Nuggikeri Hanuman has located about 7.5 km from Dharwad, 
+Karnataka, India. Nuggikeri Hanuman Temple, in Dharwad, is an ancient shrine. Devotees come into this temple from various areas. This place is crowded because of Vishesha Divasa on Saturday for Hanuman.In Nuggikeri village, the deity is said to be idolized by a senior member ofthe Nuggikeri village belonging to the Nuggikeri Desai family His Holiness Sri Vyasatirtha (the chief saint at the court of Sri krishnadevaraya of Hampi) made the pratishtapana of the LordBalabheema
+
+            </p> 
+        </div>
+    </div>
+
+</ul>
+</div>
+
+
+<div class="container" id="animation" data-aos="fade-top">
+<ul>
+         <center><h5>Shri Siddharoodha Swamy Math</h5></center>
+         <div class="row" >
+            <div class="col-3" data-aos="fade-right">
+                <img src="C:\Users\Sushma\Desktop\AICTE Activity\Siddharoodha math.jpg" height="150px" width="250px" data-aos="fade-left" class="img" >
+                
+            </div>
+        
+            <div class="col-lg-8" data-aos="fade-left">
+        
+                <p>
+    
+                    Great yogi and spiritual Teacher Samy Siddhrudha was a spiritual saint who illumined the hearts of millions of his devotees. Who was a great exponent of Advaita Philosophy has preached Nijaguna Philosophy, Bhagawdgeeta, Upanishads, Panchadashi, Brahmasutra to his disciples. Devotees from all walks of life from kings to common man approached him for spiritual guidance and blessings
+                </p>
+        
+            </div>
+        
+        </div>
+</ul>
+</div>
+
+
+<div class="container" id="animation" data-aos="fade-top">
+<ul>
+    <center><h5>Chandramouleshwara Temple</h5></center>
+        <div class="row">
+    
+        <div class="col-lg-4 order-lg-1" data-aos="fade-left">
+    
+            <img src="C:\Users\Sushma\Desktop\AICTE Activity\chamdramouleshwara.jpg" height="150px" width="250px" data-aos="fade-right" class="img">
+    
+        </div>
+    
+        <div class="col-lg-8 order-lg-0" data-aos="fade-right">
+            <p>
+                Chandramouleshwar is estimated to be a 900-year-old temple from the Badami Chalukyan era. Chalukyas built this temple in the 11th - 12th century. It was built on the lines of Badami, Unkal is an area in the Hubli-Dharwad municipality in Karnataka. It is on old Pune – Bangalore highway NH4, about 3 km north of Hubli city centre
+            </p>
+        </div>
+    </div>
+</ul>
+</div>
+
+
+<div class="container" id="animation" data-aos="fade-top">
+<ul>
+    <center><h5>Navagraha Teertha</h5></center>
+    <div class="row" >
+            <div class="col-3" data-aos="fade-right">
+                <img src="C:\Users\Sushma\Desktop\AICTE Activity\Navagraha teertha.jpg" height="150px" width="250px" data-aos="fade-left" class="img">
+            </div>
+        
+            <div class="col-lg-8" data-aos="fade-left">
+        
+                <p>
+                    Jain Temples in South India is a new weekly feature on Religion World, which gives you glimpses of different Jain shrines in the this part of the country. Rarely people are aware that Jainism has been prevalent in South India since Maurya dynasty. It became popular over the years and it was the Vijayanagar empire that made it more popular
+    
+                </p>
+        
+            </div>
+        
+        </div>
+</ul>
+</div>
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+    
+        
+</body>
+</html>
